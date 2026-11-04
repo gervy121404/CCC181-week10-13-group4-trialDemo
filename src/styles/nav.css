@@ -133,7 +133,18 @@
                               align-items: center   (brand LEFT, links RIGHT)
         .nav-list             flex-direction: row; gap: 0.5rem   (links in ONE row)
    -------------------------------------------------------------------- */
-
+   @media (min-width: 768px) {
+      .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+     
+      .nav-list {
+        flex-direction: row;
+        gap: 0.5rem;
+      }
+    }
 /* ---- 3. 1024px and up (laptops) --------------------------------------
    TODO @media (min-width: 1024px)
         .footer-grid          THREE equal columns: repeat(3, 1fr); gap 2rem
