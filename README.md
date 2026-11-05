@@ -32,7 +32,7 @@ npm run build        # must finish with no errors before you submit
 | Member | Name | GitHub username | CSS file | What I did |
 | --- | --- | --- | --- | --- |
 | 1 (leader) | | | `base.css` | |
-| 2 | Kent T. Baloyos | itItsken-the-average | `nav.css` | Wrote src/styles/nav.css (Flexbox + Grid) using a mobile-first approach, in 3 commits: phone layout with a stacked navbar, 48px (3rem) links and a 1-column footer grid, brand left with links in one row from 768px, and a 3-column footer from 1024px. Reviewed the base.css pull request. |
+| 2 | Kent T. Baloyos | Itsken-the-average | `nav.css` | Wrote src/styles/nav.css (Flexbox + Grid) using a mobile-first approach, in 3 commits: phone layout with a stacked navbar, 48px (3rem) links and a 1-column footer grid, brand left with links in one row from 768px, and a 3-column footer from 1024px. Reviewed the base.css pull request. |
 | 3 | Gervy J. Rosario | gervy121404 | `form.css` | Wrote src/styles/form.css (Flexbox) using a mobile-first approach, in 4 commits: phone layout with stacked 48px (3rem) fields and buttons, side-by-side checkbox row and buttons from 768px, and roomier card from 1024px. Reviewed the nav.css pull request. |
 
 ## Experiment 0: the page without the viewport tag
