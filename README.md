@@ -33,29 +33,29 @@ npm run build        # must finish with no errors before you submit
 | --- | --- | --- | --- | --- |
 | 1 (leader) | | | `base.css` | |
 | 2 | | | `nav.css` | |
-| 3 | | | `form.css` | |
+| 3 | Gervy J. Rosario | gervy121404 | `form.css` | Wrote src/styles/form.css (Flexbox) using a mobile-first approach, in 4 commits: phone layout with stacked 48px (3rem) fields and buttons, side-by-side checkbox row and buttons from 768px, and roomier card from 1024px. Reviewed the nav.css pull request. |
 
 ## Experiment 0: the page without the viewport tag
 
 What did the page look like in DevTools phone mode **before** adding the viewport meta tag?
 What changed **after** adding it?
 
-> (write your answer here)
+> 
 
 ## DevTools test results
 
 | Width | What must be true | Pass? |
 | --- | --- | --- |
-| 360 px | 1 column. Nav links stacked and 48px tall. Options and buttons stacked. Footer in 1 column. No sideways scrollbar. | |
-| 768 px | Nav in one row (brand left, links right). Checkbox and link in one row. Two buttons side by side. | |
-| 1024 px | Brand panel and login card side by side. Footer in 3 columns. Heading is larger. | |
-| 1280 px | Content centered and stops at 1200px. | |
+| 360 px | 1 column. Nav links stacked and 48px tall. Options and buttons stacked. Footer in 1 column. No sideways scrollbar. ||
+| 768 px | Nav in one row (brand left, links right). Checkbox and link in one row. Two buttons side by side. ||
+| 1024 px | Brand panel and login card side by side. Footer in 3 columns. Heading is larger. ||
+| 1280 px | Content centered and stops at 1200px. ||
 
 ### Breakpoints I observed
 
 Using **Show media queries** and dragging slowly from 360 px to 1280 px, the layout changed at these exact widths:
 
-> (write the widths here, and say whether any width looked broken)
+> The layout changed at 768 px, 1024 px, and 1280 px. At 768 px, the navigation became horizontal, the checkbox and “Forgot password?” appeared side by side, and the two bottom buttons formed a row. At 1024 px, the brand panel and login card formed two columns, the footer changed to three columns, and the welcome heading became larger with the extra list visible. At 1280 px, the content became centered with a maximum width of 1200 px. No broken layouts or horizontal scrolling appeared at the tested widths between 360 px and 1280 px.
 
 Screenshots are in `screenshots/` as `360.png`, `768.png`, `1024.png`, `1280.png`.
 
