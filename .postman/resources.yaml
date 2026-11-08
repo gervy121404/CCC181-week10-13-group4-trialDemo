@@ -1,0 +1,9 @@
+workspace:
+  id: eca55cfb-9557-4237-8b70-cf887d786895
+
+localResources:
+  specs:
+    - ../postman/specs/CampusConnect API/CampusConnect API.json
+resourceNameMappings:
+  specs:
+    - ../postman/specs/CampusConnect API/CampusConnect API.json: CampusConnect API

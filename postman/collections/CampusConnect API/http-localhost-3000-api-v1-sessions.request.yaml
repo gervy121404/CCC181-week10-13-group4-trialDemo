@@ -1,0 +1,15 @@
+$kind: http-request
+name: http://localhost:3000/api/v1/sessions
+description: ""
+url: http://localhost:3000/api/v1/sessions
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"email\": \"student@campusconnect.test\",\r
+
+    \    \"password\": \"Campus26\"\r
+
+    }"
+order: 2000
