@@ -230,6 +230,6 @@ See the complete [API specification](docs/API-SPEC.md) for request and response 
 ### Who did what in Part 2
 
 | Member | Name | GitHub username | What I did in Part 2 |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 | 3 | Gervy J. Rosario | gervy121404 | Configured the frontend API address using the root `.env` and `.env.example`. Added `src/api/auth.ts` with `login()` and `getMe()` functions using fetch. Updated `src/components/LoginForm.tsx` to keep the original form validation, send valid-shaped credentials to the backend, and display Loading, Success, and Error states. Added the Welcome screen using the name and email returned by the API. Saved the token in sessionStorage, restored the user on refresh through `/users/me`, removed rejected tokens, and implemented Log out. Added `src/styles/auth.css` for the new messages and Welcome screen and imported it in `src/main.tsx`. |
 
